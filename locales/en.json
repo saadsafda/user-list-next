@@ -1,0 +1,14 @@
+{
+  "welcome": "Welcome to the App",
+  "confirm": "Are you sure you want to delete this user?",
+  "addNewUser": "Add New User",
+  "yes": "Yes",
+  "no": "No",
+  "remove": "Remove",
+  "cancel": "Cancel",
+  "submit": "Submit",
+  "addUser": "Add User",
+  "userList": "User List",
+  "name": "Name",
+  "age": "Age"
+}
