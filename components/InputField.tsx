@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
-import classNames from "../../styles/classNames";
+import classNames from "../styles/classNames";
 
 type InputWithIconProps = {
   id: string;
@@ -10,6 +10,7 @@ type InputWithIconProps = {
   placeholder?: string;
   icon?: ReactNode;
   value: string;
+  required?: boolean;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
@@ -20,6 +21,7 @@ export default function InputWithIcon({
   placeholder = "",
   icon,
   value,
+  required = true,
   onChange,
 }: InputWithIconProps) {
   return (
@@ -40,6 +42,7 @@ export default function InputWithIcon({
           onChange={onChange}
           placeholder={placeholder}
           className={classNames.input}
+          required={required}
         />
       </div>
     </div>

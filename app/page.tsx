@@ -1,7 +1,7 @@
 "use client";
 
 import strings from "../locales/en.json";
-import UserList from "./components/UserList";
+import UserList from "../components/UserList";
 
 export default function HomePage() {
   return (
